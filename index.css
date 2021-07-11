@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    FONT-FAMILY: Arial;
+    font-size: 13px;
+ }
+
+table{
+    background-color: #ffd;
+}
+
+.textcolor{
+    animation-name: colo;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colo {
+    50%{color:rgb(0,0,255)}
+    100%{color:rgb(0,100,0)}
+}
